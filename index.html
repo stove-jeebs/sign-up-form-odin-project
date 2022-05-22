@@ -15,11 +15,11 @@
   <body>
     <main>
       <section id="green-leaf">
-				<div id="image-section">
-					<img src="./images/odin-lined.png" alt="odin-lined">
-					<h1 id="logo-heading">ODIN</h1>
-				</div>
-			</section>
+        <div id="image-section">
+          <img src="./images/odin-lined.png" alt="odin-lined" />
+          <h1 id="logo-heading">ODIN</h1>
+        </div>
+      </section>
       <section id="panel">
         <div id="heading">
           <h1>
@@ -42,6 +42,7 @@
                     id="firstname"
                     name="firstname"
                     autocomplete="off"
+										required
                   />
                 </div>
 
@@ -52,6 +53,7 @@
                     id="lastname"
                     name="lastname"
                     autocomplete="off"
+										required
                   />
                 </div>
               </fieldset>
@@ -74,6 +76,8 @@
                     id="phone"
                     name="phone"
                     autocomplete="off"
+										minlength="9"
+										maxlength="9"
                   />
                 </div>
               </fieldset>
